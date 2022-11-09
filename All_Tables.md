@@ -1,5 +1,5 @@
 
-# Creating Table
+# Creating Tables
 
 ### Client_master Table
 #### create table:
