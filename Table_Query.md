@@ -104,3 +104,20 @@ Select Description from Product_master where qty_on_hand <reorder_lvl;
 ```sql
 Select count(*) from Product_master where qty_on_hand <reorder_lvl;
 ```
+## 22. Display order info of orders placed in January
+```sql
+SELECT s_order_no,s_order_date FROM sales_order
+WHERE s_order_date  LIKE '__%01%'; 
+```
+## 23. Display names having 'A' as the second alphabet
+```sql
+Select Name from CLient_master where Name like '_A%';
+```
+## 24.Display client no and bal_due and arrange bal_due in decreasing/descending order
+```sql
+ Select Bal_due,Client_no from Client_master order by Client_no desc;
+ ```
+ ## 25.Display client names, city and arrange client names in alphabetical order
+```sql
+Select Name,City from Client_master order by Name;
+```
