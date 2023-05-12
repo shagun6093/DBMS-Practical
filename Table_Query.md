@@ -11,12 +11,7 @@
 Select *from Client_master;
 ```
 
-```sql
-Select *from Client_master;
-```
-```sql
-Select *from Client_master;
-```
+
 
 ## 3.Retrieve list of names and cities of all the clients
 
